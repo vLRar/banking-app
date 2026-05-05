@@ -46,7 +46,6 @@ public class CurrencyController {
         return finalResponse;
     }
 
-    // Această metodă lipsea din ultimul tău mesaj!
     @GetMapping("/export-pdf")
     public void generatePDF(HttpServletResponse response) throws IOException {
         response.setContentType("application/pdf");
